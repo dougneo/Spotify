@@ -1,0 +1,21 @@
+        body {
+        background: url(../imagens/capa.png), url(../imagens/ruido.png), linear-gradient(50deg, #ff4169, #7c26f8);
+        background-attachment: fixed;
+    }
+    
+    #topo {
+        background: rgba(0, 0, 0, 0.6);
+    }
+    
+    #nav-principal li a {
+        color: white;
+        font-weight: bolder;
+    }
+    
+    #nav-principal li a:hover {
+        color: #9bf0e1;
+    }
+    
+    .navbar-light .navbar-toggler {
+        color: rgba(255, 255, 255, .5);
+        border-color: rgba(255, 255, 255, .5);
