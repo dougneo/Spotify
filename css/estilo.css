@@ -2,6 +2,7 @@ html,
 body,
 #home {
     height: 100%;
+    overflow-x: hidden;
 }
 
 body {
@@ -73,6 +74,34 @@ body {
 }
 
 
+/* Serviços */
+
+#servicos {
+    width: 100%;
+    background: white;
+}
+
+.serv {
+    background: white;
+}
+
+.albuns {
+    padding: 15px;
+}
+
+.caixa {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.rotacionar {
+    padding-left: 80px;
+    -ms-transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
+}
+
+
 /* Tipografia */
 
 h1 {
@@ -80,6 +109,66 @@ h1 {
     letter-spacing: -0.05em;
     margin-bottom: 50px;
     color: white;
+}
+
+h2 {
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+h3 {
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+#servicos h2,
+#servicos h3 {
+    color: #7c25f8;
+}
+
+#recursos h2,
+#recursos p {
+    color: white;
+}
+
+#recursos h3 {
+    color: #9bf0e1;
+}
+
+
+/* Rodape */
+
+footer {
+    background: black;
+    padding: 50px 0px 20px 0px;
+    position: relative;
+}
+
+footer h4 {
+    color: #919496;
+    text-transform: uppercase;
+    font-size: 0.9em;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.8em;
+}
+
+footer a:hover {
+    color: #9bf0e1;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    float: right;
+    margin: 0 5px;
 }
 
 
